@@ -2,3 +2,12 @@ creating devops
 trigger check
 not working
 last check still not working
+Am I doing any mistake why its not working
+
+# Configure the AWS Provider
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"
+    }
