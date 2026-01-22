@@ -11,3 +11,14 @@ terraform {
       source  = "hashicorp/aws"
       version = "~> 5.0"
     }
+}
+}
+
+provider "aws" {
+  region = "us-west-2" # Replace with your desired region
+}
+
+# Find the most recent Ubuntu AMI
+data "aws_ami" "ubuntu" {
+  most_recent = true
+  filter {
