@@ -1,0 +1,13 @@
+<style>
+  h1 {
+    color: green; /* Changes the text color to green */
+    text-align: center; /* Centers the text */
+    font-size: 50px; /* Sets the font size */
+  }
+
+  p {
+    font-family: verdana, sans-serif; /* Sets the font family */
+    font-size: 20px; /* Sets the font size */
+    color: blue; /* Changes the text color to blue */
+  }
+</style>
